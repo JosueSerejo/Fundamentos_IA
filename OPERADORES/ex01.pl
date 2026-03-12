@@ -1,6 +1,16 @@
+gosta(joao,maria).
+gosta(joao,ana).
+gosta(joao,carla).
+gosta(joao,paula).
+gosta(ana,pedro).
+gosta(ana,marcos).
+gosta(ana,luiz).
+gosta(maria,carlos).
+gosta(maria,joao).
+gosta(maria,roberto).
 gosta(pedro,ana).
-gosta(ana, maria).
-gosta(maria, pedro).
-gosta(maria, ana).
+gosta(pedro,carla).
+gosta(carla,joao).
+gosta(carla,marcos).
 
-? gosta(maria,Quem).
+? gosta(João,Quem).

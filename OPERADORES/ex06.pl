@@ -7,7 +7,7 @@ sexo(lucas,masculino).
 pais(pedro,jonas,lurdes).
 pais(ana,jonas,lurdes).
 pais(maria,fabricio,amanda).
-pais(claudia,rodrigo,amanda).
+pais(claudia,jonas,lurdes).
 pais(lucas,fabricio, amanda).
 
 irma(X,Y) :- 

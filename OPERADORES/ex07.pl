@@ -1,17 +1,17 @@
-sexo(ana,feminino).
-sexo(maria,feminino).
-sexo(claudia,feminino).
-sexo(pedro,masculino).
-sexo(lucas,masculino).
+sexo(denise,feminino).
+sexo(fabricia,feminino).
+sexo(gabriela,feminino).
+sexo(mariano,masculino).
+sexo(chico,masculino).
 
-pais(pedro,jonas,lurdes).
-pais(ana,jonas,lurdes).
-pais(maria,fabricio,amanda).
-pais(claudia,jonas,lurdes).
-pais(lucas,fabricio,amanda).
+pais(mariano,jonas,lurdes).
+pais(denise,jonas,lurdes).
+pais(fabricia,aroldo,amanda).
+pais(gabriela,jonas,lurdes).
+pais(chico,aroldo,amanda).
 
-nao_sabe(pedro).
-nao_sabe(ana).
+nao_sabe(mariano).
+nao_sabe(denise).
 
 irmaos(X,Y) :- 
     pais(X,Pai,Mae),
@@ -22,4 +22,3 @@ nao_sabe_parentesco(X,Y) :-
     irmaos(X,Y),
     nao_sabe(X),
     nao_sabe(Y).
-

@@ -86,3 +86,44 @@ D(124) = $\sqrt{(2,89) + (0,49) + (12,25) + (2,25)} =$
 D(124) = $\sqrt{(17,88)} =$
 
 D(124) = 4,23
+
+---
+D(40) =  $ \sqrt{(4,6-5,1)^2+(3,4-3,4)^2+(1,4-1,5)^2+(0,3-0,2)^2} =$
+
+D(40) = $\sqrt{(0,25) + (0) + (0,01) + (0,01)} =$
+
+D(40) = $\sqrt{(0,3)} =$
+
+D(40) = 0,52
+
+
+## Ranking e resultados de proximidade ID #7:
+
+* d(40) = 0,52
+* d(33) = 0,95
+* d(6) = 0,99 
+
+* d(83) = 2,99 
+* d(63) = 3,26 
+* d(124) = 4,23
+* d(148) = 4,59 
+* d(105) = 5,17
+
+
+## Classificação ID #7 (K-NN)
+
+Com base nas distâncias calculadas:
+* **d(40)** = 0,52 (Iris-setosa)
+* **d(33)** = 0,95 (Iris-setosa)
+* **d(6)** = 0,99 (Iris-setosa)
+
+| Modelo | Vizinhos Próximos (ID) | Classes Envolvidas | Classificação Final |
+| :---: | :--- | :--- | :--- |
+| **1-NN** | 40 | {Setosa} | **Iris-setosa** |
+| **2-NN** | 40, 33 | {Setosa, Setosa} | **Iris-setosa** |
+| **3-NN** | 40, 33, 6 | {Setosa, Setosa, Setosa} | **Iris-setosa** |
+
+---
+
+### Análise de Resultados
+Como os três vizinhos mais próximos da amostra **#7** pertencem à mesma categoria, a classificação é consistente em todos os níveis de $K$ testados.

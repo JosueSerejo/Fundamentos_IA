@@ -1,0 +1,52 @@
+# DESAFIO JEDI - K-NN
+## Tabela de Dados Relacionados à Flor Iris
+
+| ID | SepalLength (cm) | SepalWidth (cm) | PetalLength (cm) | PetalWidth (cm) | Species |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 63 | 6.0 | 2.2 | 4.0 | 1.0 | Iris-versicolor |
+| 105 | 6.5 | 3.0 | 5.8 | 2.2 | Iris-virginica |
+| 83 | 5.8 | 2.7 | 3.9 | 1.2 | Iris-versicolor |
+| 33 | 5.2 | 4.1 | 1.5 | 0.1 | Iris-setosa |
+| 148 | 6.5 | 3.0 | 5.2 | 2.0 | Iris-virginica |
+| 6 | 5.4 | 3.9 | 1.7 | 0.4 | Iris-setosa |
+| 124 | 6.3 | 2.7 | 4.9 | 1.8 | Iris-virginica |
+| 40 | 5.1 | 3.4 | 1.5 | 0.2 | Iris-setosa |
+
+---
+
+### Dados para Classificação (K-NN)
+Utilize o algoritmo para classificar as amostras abaixo:
+
+| ID | SepalLength (cm) | SepalWidth (cm) | PetalLength (cm) | PetalWidth (cm) | Espécie Alvo |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| #7 | 4.6 | 3.4 | 1.4 | 0.3 | **?** |
+| #72 | 6.1 | 2.8 | 4.0 | 1.3 | **?** |
+
+ID #07
+
+---
+D(63) = $\sqrt{(4,6-6,0)^2+(3,4-2,2)^2+(1,4-4,0)^2+(0,3-1,0)^2} =$
+
+D(63) = $\sqrt{(1,96) + (1,44) + (6,76) + (0,49)} =$
+
+D(63) = $\sqrt{} =$
+
+D(63) = 3,26
+
+---
+D(105) =  $\sqrt{(4,6-6,5)^2+(3,4-3,0)^2+(1,4-5,8)^2+(0,3-2,2)^2} =$
+
+D(63) = $\sqrt{(3,61) + (0,16) + (19,36) + (3,61)} =$
+
+D(63) = $\sqrt{(26,74)} =$
+
+D(63) = 5,17
+
+---
+D(83) =  $\sqrt{(4,6-5,8)^2+(3,4-2,7)^2+(1,4-3,9)^2+(0,3-1,2)^2} =$
+
+D(63) = $\sqrt{(1,44) + (0,49) + (6,25) + (0,81)} =$
+
+D(63) = $\sqrt{(8,99)} =$
+
+D(63) = 2,99
